@@ -63,7 +63,7 @@ export default async function Game({
 }) {
     const data: GameProps = await getData(id)
     const sortedGame: GameProps = await getGameSorted()
-    console.log(sortedGame)
+    
 
     if (!data) {
         redirect("/")
