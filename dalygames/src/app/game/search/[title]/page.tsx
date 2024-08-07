@@ -3,6 +3,7 @@ import { Container } from '@/components/container'
 import { Input } from '@/components/input'
 import { GameCard } from '@/components/GameCard'
 
+
 async function getData(title: string){
   try{
     const decodeTItle = decodeURI(title);
